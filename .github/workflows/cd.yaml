@@ -6,7 +6,7 @@ on:
    branches:
      - main
    paths:
-     - terraform/**
+      - "terraform/*"
 
 jobs:
  Terraform-Create-And-Destroy:
@@ -35,7 +35,7 @@ jobs:
    - name: Terraform Init
      run: terraform init
 
-   - name: Terraform Init
+   - name: Terraform Plan
      run: terraform plan
 
    - name: Terraform Apply
