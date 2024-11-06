@@ -10,8 +10,3 @@ variable "lambda_file_name" {
   type        = string
   default     = "lovell-lambda"
 }
-
-variable "REGION" {
-  type    = string
-  default = "us-east-1"
-}
