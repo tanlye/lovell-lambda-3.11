@@ -12,6 +12,6 @@ variable "lambda_file_name" {
 }
 
 variable "REGION" {
-  type        = string
-  default     = "us-east-1"
+  type    = string
+  default = "us-east-1"
 }
